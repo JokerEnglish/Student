@@ -1,0 +1,9 @@
+﻿@model Student.Models.StudentModel
+
+<h2 class="text-success">Kết quả đăng ký</h2>
+<div class="alert alert-info">
+    <p>Cảm ơn bạn <strong>@Model.MSSV - @Model.HoTen</strong> đã đăng ký chuyên ngành <strong>@Model.ChuyenNganh</strong></p>
+    <hr />
+    <p>Số lượng sv đã đăng ký ngành giống bạn là: <strong>@ViewBag.SoLuong</strong></p>
+</div>
+<a href="/Student/Index" class="btn btn-secondary">Quay lại</a>
